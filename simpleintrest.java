@@ -1,24 +1,27 @@
-import java.util.Scanner;
-public class simpleintrest {
-	 public static void main(String[] args) 
-	 {
+import java .util.Scanner;
+public class simpleintrest{
+	 public static void main(String [] args) {
 		 
 		 Scanner s = new Scanner(System.in);
-		  int p = s.nextInt();
-			int r= s.nextInt();
-			int t =s.nextInt();
-			
-			int si = p*r*t/100;
-			
-			System.out.println(si);
-			
-		double d = s.nextDouble();
-				float f =s.nextFloat();
-				
-				double y = d+f;
-				System.out.println(y);
-		 
+		
+		 //FOR STRING OR CHAR INPUT ( String str = s.next();System.out.println(str);)
+	int m = s.nextInt();
+	int n = s.nextInt();
+    int o = s.nextInt();
+	int k = m+n+o ; 
+	
+	System.out.println(k);
+	int p = s.nextInt();
+	int r = s.nextInt();
+    int t = s.nextInt();
+	int si = p*t*r/100 ;
+	
+
+	
+	System.out.println(si);
 	 }
 	 
-
+	 
 }
+
+ 
